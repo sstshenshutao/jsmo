@@ -1,0 +1,27 @@
+{
+  "name": "jsmo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstshenshutao/jsmo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstshenshutao/jsmo/issues"
+  },
+  "homepage": "https://github.com/sstshenshutao/jsmo#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

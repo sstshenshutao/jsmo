@@ -59,7 +59,7 @@ import {
     Date,
     Config,
     ArrayInstruction
-} from './instruction.js';
+} from '../instruction.js';
 
 //those alias are from parseMO1 / parseMO2 ...
 
@@ -141,11 +141,11 @@ class Waittime extends Instruction {
     }
 }
 
-class Fade_out_sta extends Fade_out{
+class Fade_out_sta extends Fade_out {
     accept(visitor) {
         visitor.visitFade_out_sta(this);
     }
 }
 
 
-export {Fade_out_sta,Bgtime, Waittime, End, TestSay, Sst, Woff, Eff, SE_PLY, Mst, Csp, Crs};
+export { Fade_out_sta, Bgtime, Waittime, End, TestSay, Sst, Woff, Eff, SE_PLY, Mst, Csp, Crs };

@@ -1,0 +1,57 @@
+import { Visitor } from './visitor.js'
+
+export class ConverterVisitor extends Visitor {
+    visitSay(say) { console.log("ConverterVisitor unimplemented Say", say) }
+    visitText(text) { console.log("ConverterVisitor unimplemented Text", text) }
+    visitText_off(text_off) { console.log("ConverterVisitor unimplemented Text_off", text_off) }
+    visitWaitkey(waitkey) { console.log("ConverterVisitor unimplemented Waitkey", waitkey) }
+    visitTitle(title) { console.log("ConverterVisitor unimplemented Title", title) }
+    visitTitle_dsp(title_dsp) { console.log("ConverterVisitor unimplemented Title_dsp", title_dsp) }
+    visitChara(chara) { console.log("ConverterVisitor unimplemented Chara", chara) }
+    visitChara_cls(chara_cls) { console.log("ConverterVisitor unimplemented Chara_cls", chara_cls) }
+    visitChara_pos(chara_pos) { console.log("ConverterVisitor unimplemented Chara_pos", chara_pos) }
+    visitBg(bg) { console.log("ConverterVisitor unimplemented Bg", bg) }
+    visitFlash(flash) { console.log("ConverterVisitor unimplemented Flash", flash) }
+    visitQuake(quake) { console.log("ConverterVisitor unimplemented Quake", quake) }
+    visitFade_out(fade_out) { console.log("ConverterVisitor unimplemented Fade_out", fade_out) }
+    visitFade_in(fade_in) { console.log("ConverterVisitor unimplemented Fade_in", fade_in) }
+    visitMovie(movie) { console.log("ConverterVisitor unimplemented Movie", movie) }
+    visitTextbox(textbox) { console.log("ConverterVisitor unimplemented Textbox", textbox) }
+    visitChara_quake(chara_quake) { console.log("ConverterVisitor unimplemented Chara_quake", chara_quake) }
+    visitChara_down(chara_down) { console.log("ConverterVisitor unimplemented Chara_down", chara_down) }
+    visitChara_up(chara_up) { console.log("ConverterVisitor unimplemented Chara_up", chara_up) }
+    visitScroll(scroll) { console.log("ConverterVisitor unimplemented Scroll", scroll) }
+    visitChara_y(chara_y) { console.log("ConverterVisitor unimplemented Chara_y", chara_y) }
+    visitChara_scroll(chara_scroll) { console.log("ConverterVisitor unimplemented Chara_scroll", chara_scroll) }
+    visitAnime_on(anime_on) { console.log("ConverterVisitor unimplemented Anime_on", anime_on) }
+    visitAnime_off(anime_off) { console.log("ConverterVisitor unimplemented Anime_off", anime_off) }
+    visitChara_anime(chara_anime) { console.log("ConverterVisitor unimplemented Chara_anime", chara_anime) }
+    visitSet(set) { console.log("ConverterVisitor unimplemented Set", set) }
+    visitAdd(add) { console.log("ConverterVisitor unimplemented Add", add) }
+    visitSub(sub) { console.log("ConverterVisitor unimplemented Sub", sub) }
+    visitLabel(label) { console.log("ConverterVisitor unimplemented Label", label) }
+    visitGoto(goto) { console.log("ConverterVisitor unimplemented Goto", goto) }
+    visitIf___goto(if___goto) { console.log("ConverterVisitor unimplemented If___goto", if___goto) }
+    visitChange(change) { console.log("ConverterVisitor unimplemented Change", change) }
+    visitCall(call) { console.log("ConverterVisitor unimplemented Call", call) }
+    visitRet(ret) { console.log("ConverterVisitor unimplemented Ret", ret) }
+    visitSel(sel) { console.log("ConverterVisitor unimplemented Sel", sel) }
+    visitSelect_text(select_text) { console.log("ConverterVisitor unimplemented Select_text", select_text) }
+    visitSelect_var(select_var) { console.log("ConverterVisitor unimplemented Select_var", select_var) }
+    visitSelect_img(select_img) { console.log("ConverterVisitor unimplemented Select_img", select_img) }
+    visitSelect_imgs(select_imgs) { console.log("ConverterVisitor unimplemented Select_imgs", select_imgs) }
+    visitWait(wait) { console.log("ConverterVisitor unimplemented Wait", wait) }
+    visitWait_se(wait_se) { console.log("ConverterVisitor unimplemented Wait_se", wait_se) }
+    visitRand(rand) { console.log("ConverterVisitor unimplemented Rand", rand) }
+    visitBgm(bgm) { console.log("ConverterVisitor unimplemented Bgm", bgm) }
+    visitBgm_stop(bgm_stop) { console.log("ConverterVisitor unimplemented Bgm_stop", bgm_stop) }
+    visitSe(se) { console.log("ConverterVisitor unimplemented Se", se) }
+    visitSe_stop(se_stop) { console.log("ConverterVisitor unimplemented Se_stop", se_stop) }
+    visitVo(vo) { console.log("ConverterVisitor unimplemented Vo", vo) }
+    visitLoad(load) { console.log("ConverterVisitor unimplemented Load", load) }
+    visitAlbum(album) { console.log("ConverterVisitor unimplemented Album", album) }
+    visitMusic(music) { console.log("ConverterVisitor unimplemented Music", music) }
+    visitDate(date) { console.log("ConverterVisitor unimplemented Date", date) }
+    visitConfig(config) { console.log("ConverterVisitor unimplemented Config", config) }
+    visitArrayInstruction(arrayInstruction) { console.log("ConverterVisitor unimplemented ArrayInstruction", arrayInstruction) }
+}

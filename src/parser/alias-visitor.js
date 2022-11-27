@@ -1,4 +1,4 @@
-import {ParseVisitor} from "./instructionVisitor.js";
+import { ParseVisitor } from "./instruction-visitor.js";
 
 function replaceAlias(alias, proto, command) {
     return proto + command.slice(alias.length);

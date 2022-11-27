@@ -1,4 +1,4 @@
-import {Visitor} from './visitor.js'
+import { Visitor } from '../visitor.js'
 
 function isNumber(a) {
     return !isNaN(a);
